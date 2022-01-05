@@ -1,12 +1,3 @@
-#list {
-  display: grid;
-  margin: auto;
-  grid-template-columns: repeat(auto-fit, 320px);
-  align-items: center;
-  grid-gap: 50px;
-  justify-content: left;
-}
-
 body::-webkit-scrollbar {
   width: 0.5em;
 }
