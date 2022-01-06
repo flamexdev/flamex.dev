@@ -6,7 +6,7 @@ export default function render({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <html lang='en' />
+        {/* <html lang='en' /> */}
         <title> Flamex - Passionate self-taught software engineer from Germany </title>
         <link rel='icon' href='https://media.flamex.dev/me_pfp_upscaled.png' />
         <meta name='description' content='Flamex - Passionate self-taught software engineer from Germany'></meta>
