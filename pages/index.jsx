@@ -14,7 +14,7 @@ const links = [
 export default function Homepage() {
   return (
     <div className='h-screen flex justify-around items-center'>
-      <div className='p-4'>
+      <div className='p-4 h-1/2'>
         <div className='flex items-center md:gap-10 gap-5 md:flex-row-reverse'>
           <div className='flex justify-start'>
             <img src='https://media.flamex.dev/me_pfp_upscaled.png' alt='Profile Picture' className='md:w-52 w-28 rounded-lg' />
