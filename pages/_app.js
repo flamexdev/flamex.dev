@@ -1,9 +1,16 @@
 import '../styles/globals.css'
 import '../styles/tailwind.css'
+import Head from 'next/head'
 
 export default function render({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>
+          Flamex - Passionate self-taught software engineer from Germany
+        </title>
+        <link rel="icon" href='https://media.flamex.dev/me_pfp_upscaled.png' />
+      </Head>
       <div className='w-screen min-h-screen text-white select-none md:bg-gradient-to-tr bg-gradient-to-t from-black to-gray-800'>
         <Component {...pageProps} />
       </div>
