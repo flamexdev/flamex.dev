@@ -24,7 +24,7 @@ export default function Homepage() {
               Flamex
             </p>
             <p className='text-gray-500 font-mono md:whitespace-nowrap leading-4'>
-              Passionate self-taught software engineer from Germany
+              Passionate self-taught software developer from Germany
             </p>
             <p className='md:flex items-center gap-2 mt-5 hidden'>
               {links.map(e => (
