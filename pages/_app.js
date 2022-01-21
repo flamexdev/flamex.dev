@@ -9,7 +9,8 @@ export default function render({ Component, pageProps }) {
         {/* <html lang='en' /> */}
         <title> Flamex - Passionate self-taught software engineer from Germany </title>
         <link rel='icon' href='https://media.flamex.dev/me_pfp_upscaled.png' />
-        <meta name='description' content='Flamex - Passionate self-taught software engineer from Germany'></meta>
+        <meta name='description' content='Flamex - Passionate self-taught software engineer from Germany' />
+        <meta name='theme-color' content='#4646E5' />
       </Head>
       <div className='w-screen min-h-screen text-white select-none md:bg-gradient-to-tr bg-gradient-to-t from-black to-gray-800'>
         <Component {...pageProps} />
